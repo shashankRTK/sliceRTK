@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="head">
+        <h1>🎉ROYAL TECH KANNADA🎉</h1>
+    </div>
+    <div class="container">
+        <div class="card">
+                <div class="icon">
+                    <img src="slice.svg" alt="">
+                </div>
+                <div class="content">
+                   <h1> SHASHANK </h1>
+                   
+                   <button onclick="copyText()" id="copying">COPY CODE</button>
+                   <button id="down"><a href="https://www.sliceit.com/static/media/logo.27a7f72e.svg"> DOWNLOAD NOW</a></button>
+
+                </div>
+
+        </div>
+
+    </div>
+    <p>Created by Shashank</p>
+
+    <script>
+        function copyText() {
+            navigator.clipboard.writeText("Shashank");
+            document.getElementById("copying").innerHTML="COPIED!!!!";
+            document.getElementById("copying").style.backgroundColor = "red";
+            document.getElementById("copying").style.background = "rgb(10, 250, 62)";
+            
+            
+        }
+
+    </script>
+</body>
+
+</html>
